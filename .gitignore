@@ -11,3 +11,6 @@ Thumbs.db
 
 # Locally built skill ZIPs
 *.zip
+
+# Optional local folder for raw discovery material (never committed)
+docs/design-thinking/_raw/
