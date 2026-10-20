@@ -26,13 +26,16 @@ and every change starts as a spec revision in OpenCode.
 | `lovable/skills/` | Lovable | Six execution-loop skills to import into the Lovable workspace |
 | `lovable/workspace-knowledge.md` | Lovable | Rules to paste into workspace knowledge |
 | `docs/setup.md` | everyone | Setup and daily use |
+| `docs/studentguide.md` | students | Short guide in Norwegian |
+| `docs/examples/` | students | Fictional worked example: evidence card and ready Story |
 | `docs/harness-design.md` | teachers | Design, decisions and caveats |
 | `docs/test-plan.md` | teachers | Tests to run before using it with students |
 
 ## Quick start
 
-**Teacher, once per Lovable workspace:** import each folder under
-`lovable/skills/` as a skill, set auto-use OFF for `harness-init`,
+**Teacher, once per Lovable workspace:** import the six skills (ready-made
+ZIPs are attached to the latest GitHub Release, or zip each folder under
+`lovable/skills/` yourself), set auto-use OFF for `harness-init`,
 `build-story`, `accept-story` and `publish`, and paste
 `lovable/workspace-knowledge.md` into workspace knowledge.
 

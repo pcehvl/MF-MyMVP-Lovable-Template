@@ -62,6 +62,8 @@ no issue tracker).
   existing context.
 - **No invention.** Never invent users, research, requirements or product
   functionality. Record gaps as open questions.
+- **`docs/examples/` is fictional teaching material.** Use it only to show
+  the format; never treat it as evidence or as part of this product.
 - **Lovable access is limited** to the tools in the `lovable-bridge` skill.
   Never ask Lovable to build, fix, publish or query data from here.
 
