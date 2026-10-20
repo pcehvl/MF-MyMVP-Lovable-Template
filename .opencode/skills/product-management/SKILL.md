@@ -15,31 +15,8 @@ Accept heterogeneous material: interviews, observations, analytics, support
 records, personas, journey maps, story maps, prototype feedback, research notes,
 screenshots, documents.
 
-Keep raw material (recordings, PDFs, boards, large documents) where it already
-lives, for example a shared drive, or in the git-ignored local folder
-`docs/design-thinking/_raw/`; never commit it.
-Record each source as one **evidence card** in `docs/design-thinking/`:
-
-```markdown
----
-id: E-001
-type: interview | observation | analytics | survey | document | other
-date: YYYY-MM-DD
-source: who or what produced it (anonymised where needed)
-raw: link or location of the raw material
----
-
-## Evidence
-- "<verbatim quote or observation>"
-
-## Interpretation
-- <what it appears to mean — labelled as interpretation>
-```
-
-File name: `E-001-short-slug.md`. Evidence IDs (`E-001`, `E-002`, …) are
-sequential, allocated once and never reused. Keep quotes verbatim; never
-rewrite a user's words into requirements. Product context and Stories refer to
-evidence by `E-xxx` ID.
+Store source material in a dedicated discovery folder when appropriate. Keep the
+original artefacts; do not overwrite them with summaries.
 
 Never invent missing research. If evidence is absent, record that absence as an
 open question rather than filling the gap with assumptions.
