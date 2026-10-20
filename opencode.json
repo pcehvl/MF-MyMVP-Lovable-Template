@@ -9,7 +9,31 @@
       }
     }
   },
-  "permissions": [
-    { "action": "lovable_*", "resource": "*", "effect": "deny" }
-  ]
+  "agents": {
+    "build": {
+      "permissions": [
+        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+      ]
+    },
+    "plan": {
+      "permissions": [
+        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+      ]
+    },
+    "general": {
+      "permissions": [
+        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+      ]
+    },
+    "explore": {
+      "permissions": [
+        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+      ]
+    },
+    "compaction": {
+      "permissions": [
+        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+      ]
+    }
+  }
 }
