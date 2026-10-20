@@ -13,7 +13,7 @@ Lovable creates the app and its own repository.
 
 | Path | What it is |
 |---|---|
-| `skills/` | Nine Lovable skills, one folder each with a `SKILL.md` |
+| `skills/` | Eight Lovable skills, one folder each with a `SKILL.md` |
 | `skills/harness-init/templates/` | Starter files that `/harness-init` copies into each new project |
 | `lovable/workspace-knowledge.md` | Universal rules to paste into workspace knowledge |
 | `docs/lovable-setup.md` | Step-by-step setup, daily loop and troubleshooting |
@@ -26,7 +26,6 @@ Lovable creates the app and its own repository.
 | `product-assistant` | talking about the product | ON |
 | `product-management` | (used by product-assistant) | ON |
 | `feedback-management` | bringing feedback, or `/feedback-management` | ON |
-| `ui-design` | asking for UI work | ON |
 | `plan-story` | "plan US-XXX" | ON |
 | `harness-init` | `/harness-init` | OFF |
 | `build-story` | `/build-story US-XXX` | OFF |
