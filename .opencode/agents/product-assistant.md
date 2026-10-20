@@ -53,6 +53,9 @@ permissions:
   - action: "question"
     resource: "*"
     effect: allow
+  - action: "execute"
+    resource: "*"
+    effect: allow
   - action: "lovable_list_workspaces"
     resource: "*"
     effect: allow
