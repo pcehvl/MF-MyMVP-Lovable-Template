@@ -14,7 +14,7 @@ You must be a workspace owner or admin to manage skills.
 2. **Set auto-use.** Turn automatic use **OFF** for the gate skills
    `harness-init`, `build-story`, `accept-story` and `publish`, so they run
    only when you type `/<name>`. Leave it ON for `product-assistant`,
-   `product-management`, `feedback-management`, `ui-design` and `plan-story`.
+   `product-management`, `feedback-management` and `plan-story`.
 3. **Add workspace knowledge.** Workspace settings → Knowledge: paste the
    whole of `lovable/workspace-knowledge.md`.
 
@@ -24,8 +24,8 @@ You must be a workspace owner or admin to manage skills.
 2. Optional: connect GitHub. Lovable creates a new repository for the
    project; it cannot use this harness repository.
 3. Switch to Build mode and type `/harness-init`. It creates `AGENTS.md`,
-   `product/product.md`, `product/stories/`, `docs/ui-guidelines.md` and
-   `docs/design-thinking/`, and reports what it created.
+   `product/product.md`, `product/stories/` and `docs/design-thinking/`, and
+   reports what it created.
 
 ## 3. Daily loop
 

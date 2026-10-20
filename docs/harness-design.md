@@ -20,7 +20,6 @@ How the MyMVP method maps onto Lovable, and what to watch out for.
 |---|---|---|---|
 | Product Assistant | `product-assistant` (+ `product-management`) | `product/product.md`, `spec.md`, backlog | ON |
 | Feedback routing | `feedback-management` | feedback analysis, PO decision | ON |
-| UI design | `ui-design` | `docs/ui-guidelines.md` | ON |
 | Planning | `plan-story` | `plan.md` | ON |
 | Building | `build-story` | app code, schema, RLS | OFF (gate) |
 | Acceptance | `accept-story` | `acceptance.md`, `status: done` | OFF (gate) |
