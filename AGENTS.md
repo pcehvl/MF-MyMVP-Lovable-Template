@@ -30,7 +30,7 @@ ready spec.md) and a **return** (that Story's acceptance.md). Method:
 
 | Artefact | Location | Written by |
 |---|---|---|
-| Evidence cards | `docs/design-thinking/E-xxx-*.md` | product-assistant |
+| Design Thinking source material | `docs/design-thinking/` | product-assistant |
 | Product context | `product/product.md` | product-assistant |
 | Product Backlog | `product/stories/` (one directory per Story) | product-assistant |
 | Story spec | `product/stories/<US-XXX-slug>/spec.md` | product-assistant |
