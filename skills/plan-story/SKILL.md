@@ -21,8 +21,8 @@ Check before planning, and stop with a one-line explanation if any fails:
 
 ## 2. Inspect first
 
-Read the spec, `product/product.md`, `docs/ui-guidelines.md`, and the parts
-of the existing app, database schema and access rules the Story touches.
+Read the spec, `product/product.md`, and the parts of the existing app,
+database schema and access rules the Story touches.
 Plan from what exists, not from what you assume exists. If the requirement
 is unclear or blocking, raise it instead of planning around it.
 
