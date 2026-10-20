@@ -17,7 +17,6 @@ Copy each bundled file to the same path at the project root:
 | `templates/AGENTS.md` | `AGENTS.md` |
 | `templates/product/product.md` | `product/product.md` |
 | `templates/product/stories/.gitkeep` | `product/stories/.gitkeep` |
-| `templates/docs/ui-guidelines.md` | `docs/ui-guidelines.md` |
 | `templates/docs/design-thinking/.gitkeep` | `docs/design-thinking/.gitkeep` |
 
 ## 2. Procedure
