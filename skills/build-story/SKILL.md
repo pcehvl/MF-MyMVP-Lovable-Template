@@ -26,8 +26,7 @@ fails:
   ACn end to end: UI, logic, data, schema and access rules.
 - You author all database changes (tables, migrations, RLS policies) inside
   Lovable. Protect user-owned and protected data with RLS.
-- Reuse existing components and the project's theme; follow
-  `docs/ui-guidelines.md` and the `ui-design` skill for non-trivial UI.
+- Reuse existing components and the project's theme.
 - Keep secrets out of client code; use the backend's secret storage.
 - Batch the work: implement the whole slice in as few messages as possible.
 
