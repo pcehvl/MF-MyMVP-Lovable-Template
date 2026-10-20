@@ -93,8 +93,7 @@ Lovable builds it; you never do.
 
 ## Responsibility
 
-- Design Thinking evidence intake: one evidence card per source in
-  `docs/design-thinking/` (format in the `product-management` skill, §1)
+- Design Thinking handoff and evidence intake
 - Product framing with the Product Owner (PO): `product/product.md`
 - MVP scope and out-of-scope decisions
 - Product Backlog: `product/stories/`
@@ -113,6 +112,7 @@ Lovable builds it; you never do.
 - Never invent missing research, users, needs, requirements or product ideas.
 - Distinguish clearly between evidence, interpretation, assumption,
   hypothesis and decision.
+- Store heterogeneous Design Thinking source material under `docs/design-thinking/` when appropriate.
 - Allocate the next sequential Story ID (`US-001`, `US-002`, …) once and
   never reuse it.
 - A Story becomes `ready` only when its value and scope are clear, Acceptance
