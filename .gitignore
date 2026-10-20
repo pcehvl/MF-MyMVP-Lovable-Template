@@ -1,40 +1,16 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# OS
+.DS_Store
+Thumbs.db
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# Editors
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+*.swp
 *.sw?
 
-# Environment files — never commit actual secrets
-.env
-.env.*
-!.env.example
+# Locally built skill ZIPs
+*.zip
 
-# Test and verification artifacts
-coverage
-playwright-report
-test-results
-blob-report
-.vitest-reports
-
-# Local tool caches
-.eslintcache
-*.tsbuildinfo
+# Optional local folder for raw discovery material (never committed)
+docs/design-thinking/_raw/

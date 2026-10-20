@@ -1,19 +1,22 @@
 ---
-name: Feedback Management
-description: Route product feedback through classification, analysis and a human decision into the correct artefact — or into no action
+name: feedback-management
+description: Use when the PO brings feedback, bug reports, test observations or a Lovable return with new wishes or observations. Classifies and analyses the feedback and routes it to a PO decision.
 ---
 
 # Feedback Management
 
-Generic method for handling all product feedback. Every piece of feedback
-returns through the Product Assistant role. Feedback never automatically becomes
+Generic method for handling all product feedback, bug reports and test
+observations. Every piece of feedback returns through the product loop
+(product-assistant). Feedback never automatically becomes
 functionality.
 
 ## 1. Capture
 
 Record feedback with its source and context:
 
-- who or what produced it (user, stakeholder, support channel, observation, analytics)
+- who or what produced it (user, stakeholder, support channel, observation,
+  analytics, or a Lovable return: the "New wishes" and observations in a
+  returned `acceptance.md`)
 - when and where
 - the raw wording or observation where available
 - any linked artefacts (screenshots, recordings, tickets, notes)
@@ -69,7 +72,9 @@ against a Story or product context.
 ## 5. Apply the decision
 
 - **Update an existing Story**: revise its `spec.md`, including Acceptance
-  Criteria where needed. Record the feedback source in Traceability.
+  Criteria where needed, and bump its `revision` if it is `ready`. Record the
+  feedback source in Traceability, and hand the new revision over to Lovable.
+  A `done` Story stays done: a later change becomes a new Story.
 - **Create a new Story**: allocate the next unused sequential identifier and
   write a fresh spec. Do not reuse identifiers.
 - **Update product context**: change the stable product document, and note what
@@ -85,10 +90,13 @@ Keep the link from feedback source to the artefact it influenced:
 Feedback source → Observation → Interpretation → Decision → Story / Context / No action
 ```
 
-## 7. Boundaries
+## 7. Must not
 
 - Do not auto-promote feedback into the backlog or into code.
+- Do not change the app or ask Lovable to change anything; every decided
+  change reaches Lovable as a Story revision through a handover.
+- Do not edit returned `acceptance.md` copies.
 - Do not weaken or delete Acceptance Criteria to accommodate feedback without a
   human decision.
-- Ask the human at most ONE question per message, and only when the answer
-  materially affects the decision and cannot be determined from existing context.
+- Ask the PO at most ONE question per message, and only when the answer
+  materially affects the work and cannot be determined from existing context.
