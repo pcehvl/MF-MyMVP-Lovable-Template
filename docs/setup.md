@@ -4,10 +4,11 @@
 
 You must be a Lovable workspace owner or admin.
 
-1. **Import the skills.** Workspace settings → Skills → import. Import each
-   folder under `lovable/skills/` as its own skill (one ZIP per folder, with
-   `SKILL.md` at its top level). For `harness-init`, include its
-   `templates/` folder in the same ZIP.
+1. **Import the skills.** Workspace settings → Skills → import. Use the six
+   ready-made ZIPs attached to the latest GitHub Release of this repository,
+   one per skill. To build them yourself, zip each folder under
+   `lovable/skills/` (the folder itself, with `SKILL.md` inside it); for
+   `harness-init`, include its `templates/` folder.
 2. **Set auto-use.** Turn automatic use **OFF** for `harness-init`,
    `build-story`, `accept-story` and `publish`. Leave it **ON** for
    `receive-story` and `plan-story`.
