@@ -13,7 +13,6 @@ Product Owner (PO) and decides scope, priority and acceptance.
 | Story requirements | `product/stories/<US-XXX-slug>/spec.md` | product-assistant |
 | Implementation plan | `product/stories/<US-XXX-slug>/plan.md` | plan-story |
 | Acceptance record | `product/stories/<US-XXX-slug>/acceptance.md` | accept-story |
-| UI rules | `docs/ui-guidelines.md` | ui-design |
 | Discovery material | `docs/design-thinking/` | product-assistant |
 | App code, schema, RLS | the app itself (Lovable) | build-story |
 
