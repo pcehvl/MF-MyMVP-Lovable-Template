@@ -12,27 +12,67 @@
   "agents": {
     "build": {
       "permissions": [
-        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+        { "action": "lovable_*", "resource": "*", "effect": "deny" },
+        { "action": "lovable_list_workspaces", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_projects", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_project", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_message", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_messages", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_files", "resource": "*", "effect": "allow" },
+        { "action": "lovable_read_file", "resource": "*", "effect": "allow" },
+        { "action": "lovable_send_message", "resource": "*", "effect": "ask" }
       ]
     },
     "plan": {
       "permissions": [
-        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+        { "action": "lovable_*", "resource": "*", "effect": "deny" },
+        { "action": "lovable_list_workspaces", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_projects", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_project", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_message", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_messages", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_files", "resource": "*", "effect": "allow" },
+        { "action": "lovable_read_file", "resource": "*", "effect": "allow" },
+        { "action": "lovable_send_message", "resource": "*", "effect": "ask" }
       ]
     },
     "general": {
       "permissions": [
-        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+        { "action": "lovable_*", "resource": "*", "effect": "deny" },
+        { "action": "lovable_list_workspaces", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_projects", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_project", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_message", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_messages", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_files", "resource": "*", "effect": "allow" },
+        { "action": "lovable_read_file", "resource": "*", "effect": "allow" },
+        { "action": "lovable_send_message", "resource": "*", "effect": "ask" }
       ]
     },
     "explore": {
       "permissions": [
-        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+        { "action": "lovable_*", "resource": "*", "effect": "deny" },
+        { "action": "lovable_list_workspaces", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_projects", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_project", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_message", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_messages", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_files", "resource": "*", "effect": "allow" },
+        { "action": "lovable_read_file", "resource": "*", "effect": "allow" },
+        { "action": "lovable_send_message", "resource": "*", "effect": "ask" }
       ]
     },
     "compaction": {
       "permissions": [
-        { "action": "lovable_*", "resource": "*", "effect": "deny" }
+        { "action": "lovable_*", "resource": "*", "effect": "deny" },
+        { "action": "lovable_list_workspaces", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_projects", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_project", "resource": "*", "effect": "allow" },
+        { "action": "lovable_get_message", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_messages", "resource": "*", "effect": "allow" },
+        { "action": "lovable_list_files", "resource": "*", "effect": "allow" },
+        { "action": "lovable_read_file", "resource": "*", "effect": "allow" },
+        { "action": "lovable_send_message", "resource": "*", "effect": "ask" }
       ]
     }
   }
